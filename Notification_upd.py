@@ -25,7 +25,6 @@ def set():
         except Exception as e:
             mb.showerror("Ошибка!", f"Произошла ошибка: {e}")
 
-
 def check():
     global t
     global reminder_text
